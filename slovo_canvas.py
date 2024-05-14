@@ -20,7 +20,7 @@ for i in slovo:
 diff = 0
 for i in slovo[::-1]:
     
-    diff += 25
-    canvas.create_text(30+diff,150,text=i,font=('Arial', 24),fill=random.choice(colors))
+    diff += 30
+    canvas.create_text(30+diff,150,text=i,font=('Arial', 24),fill=random.choice(colors),angle=90)
 
 tkinter.mainloop()
