@@ -1,0 +1,7 @@
+1 cervena
+2 modra
+3 cervena
+4 modra
+5 zelena 
+6 zelena
+7 zelena
