@@ -15,7 +15,9 @@ diff = 0
 for i in slovo:
 
     diff += 25
-    canvas.create_text(30+diff,100,text=i,font=('Arial', 24),fill=random.choice(colors))
+    color = random.choice(colors)
+    canvas.create_text(30+diff,100,text=i,font=('Arial', 24),fill=color)
+    colors.remove(color)
 
 diff = 0
 for i in slovo[::-1]:
