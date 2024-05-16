@@ -34,6 +34,8 @@ for i in hadik[0]:
             coords[2] += p
             canvas.create_line(coords)
             coords[0] += p
+        
+    canvas.after(500)
+    canvas.update()
     
-    print(coords,i)
 canvas.mainloop()
